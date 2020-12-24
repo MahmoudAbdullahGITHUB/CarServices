@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "871323985837",
+    "project_id": "carservice-c5128",
+    "storage_bucket": "carservice-c5128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871323985837:android:3be359025702dca045a324",
+        "android_client_info": {
+          "package_name": "com.example.carserviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871323985837-r5d7n53pdrerrc8fphcmnhqkg3iokvo8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carserviceapp",
+            "certificate_hash": "386172d2c1fc8bce425bb08b83e2e3a9b9b56b13"
+          }
+        },
+        {
+          "client_id": "871323985837-5eil4q0sut2g534eun44r8cra5vaektn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg3gGlYf8RUG37XhIE98CIAkDDmjysz3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871323985837-5eil4q0sut2g534eun44r8cra5vaektn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

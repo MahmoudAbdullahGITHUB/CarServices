@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="1dp"
+        app:layout_anchor="@+id/app_bar_layout"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintTop_toBottomOf="@+id/app_bar_layout" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#262626"
+        android:orientation="vertical"
+        app:contentScrim="#262626"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_scrollFlags="scroll|enterAlways|snap">
+
+        <Toolbar
+            android:id="@+id/toolBarID"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#262626"
+            android:contentInsetEnd="0dp"
+            android:contentInsetStart="0dp"
+
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#262626"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:paddingTop="5dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="60dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/vodo_image"
+                        />
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </Toolbar>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayoutID"
+            style="@style/tabLayoutTheme"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:tabIndicatorColor="@color/appColor"
+            app:tabIndicatorHeight="3dp"
+            app:tabMaxWidth="0dp"
+            app:tabGravity="fill"
+
+            app:tabMode="fixed" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

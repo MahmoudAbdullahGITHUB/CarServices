@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragments.DriverLoginFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/duserName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:autoLink="email"
+            android:background="@drawable/editetextborder"
+            android:hint="Username or email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:text="d@d.com"
+            android:textColorHint="@color/silver"
+            android:textStyle="bold" />
+
+        <!--        android:text="b@b.com"-->
+
+        <EditText
+            android:id="@+id/dpassword"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/editetextborder"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:text="123456"
+            android:textColorHint="@color/silver"
+            android:textStyle="bold" />
+
+        <!--        android:text="123456"-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dloginBu"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/roundedbutton2"
+            android:gravity="center"
+            android:text="Driver Log in"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
